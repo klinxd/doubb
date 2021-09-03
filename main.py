@@ -79,7 +79,7 @@ def saveToExcel(list,fileName):
 
 #创建数据库表
 def createTable(dbName,tableName):
-    doubanDb = pymysql.connect(host='192.168.150.100', user='python', password='000000a', port=3306, db=dbName)  # 连接数据库
+    doubanDb = pymysql.connect(host='192.168.150.100', user='root', password='rootmysql', port=3306, db=dbName)  # 连接数据库
     cur = doubanDb.cursor()  # 获取数据库游标
     creatSql = f'''
             create table {tableName}
@@ -98,7 +98,7 @@ def createTable(dbName,tableName):
 
 #数据库插入数据
 def saveToDB(list,dbName,tableName):
-    doubanDb = pymysql.connect(host='192.168.150.100', user='python', password='000000a', port=3306, db=dbName)  # 连接数据库
+    doubanDb = pymysql.connect(host='192.168.150.100', user='root', password='rootmysql', port=3306, db=dbName)  # 连接数据库
     cur = doubanDb.cursor()  # 获取数据库游标
     #将电影数据存入数据库
     for movie in list:
