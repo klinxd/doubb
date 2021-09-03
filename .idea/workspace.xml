@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f14efadc-feb2-44fa-9eb7-694836be1bb3" name="Changes" comment="20210903" />
+    <list default="true" id="f14efadc-feb2-44fa-9eb7-694836be1bb3" name="Changes" comment="2021090301">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.text" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +47,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630654106332</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2021090301">
+      <created>1630654368366</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1630654368366</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -61,6 +71,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1321" />
     <MESSAGE value="20210903" />
-    <option name="LAST_COMMIT_MESSAGE" value="20210903" />
+    <MESSAGE value="2021090301" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021090301" />
   </component>
 </project>
