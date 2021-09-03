@@ -63,7 +63,7 @@ def getDataHtml(baseUrl):
             scrip = re.sub('<br/>(\s+)',"",scrip)
             movieData.append(scrip.strip())
             moviesDataList.append(movieData)    #将每个电影放入所有电影集合中
-    print(len(moviesDataList))
+
     return moviesDataList
 
 #将数据存放在Excel中
@@ -121,16 +121,16 @@ def main():
     baseUrl = 'https://movie.douban.com/top250?start='
     moviesList = getDataHtml(baseUrl)
 
-    # #保存数据到Excel
-    # fileName = 'douban.xls'
-    # saveToExcel(moviesList,fileName)
+    # 保存数据到Excel
+    fileName = 'douban.xls'
+    saveToExcel(moviesList,fileName)
 
     #保存数据到数据库
     dbName = 'python'
     tableName = 'douban'
     createTable(dbName,tableName)
     saveToDB(moviesList,dbName,tableName)
-    print('数据库写入成功')
+
 
 #程序入口
 if __name__ == '__main__':
