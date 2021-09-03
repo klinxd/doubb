@@ -121,15 +121,15 @@ def main():
     baseUrl = 'https://movie.douban.com/top250?start='
     moviesList = getDataHtml(baseUrl)
 
-    # # 保存数据到Excel
-    # fileName = 'douban.xls'
-    # saveToExcel(moviesList,fileName)
+    # 保存数据到Excel
+    fileName = 'douban.xls'
+    saveToExcel(moviesList,fileName)
 
-    #保存数据到数据库
-    dbName = 'python'
-    tableName = 'douban'
-    createTable(dbName,tableName)
-    saveToDB(moviesList,dbName,tableName)
+    # #保存数据到数据库
+    # dbName = 'python'
+    # tableName = 'douban'
+    # createTable(dbName,tableName)
+    # saveToDB(moviesList,dbName,tableName)
 
 
 #程序入口
