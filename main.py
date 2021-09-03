@@ -79,7 +79,7 @@ def saveToExcel(list,fileName):
 
 #创建数据库表
 def createTable(dbName,tableName):
-    doubanDb = pymysql.connect(host='192.168.150.100', user='root', password='rootmysql', port=3306, db=dbName)  # 连接数据库
+    doubanDb = pymysql.connect(host='192.168.150.100', user='python', password='000000a', port=3306, db=dbName)  # 连接数据库
     cur = doubanDb.cursor()  # 获取数据库游标
     creatSql = f'''
             create table {tableName}
